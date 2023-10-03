@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta property="og:title" content="Government of Kabitawi" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta name="theme-color" content="#274c77">
+    <title>Government of Kabitawi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <link rel="stylesheet" href="styles/css/Kabitawi-Light.css">
+    <link rel="icon" type="image/x-icon" href="">
+    <script src="https://kit.fontawesome.com/c3d0b8e5dd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section id="service-categories">
+      <div class="layout">
+        <h2>service categories</h2>
+        <div class="tiles flex" xmlns:x="http://www.w3.org/2001/XMLSchema" xmlns:d="http://schemas.microsoft.com/sharepoint/dsp" xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:__designer="http://schemas.microsoft.com/WebParts/v2/DataView/designer" xmlns:sharepoint="Microsoft.SharePoint.WebControls" xmlns:ddwrt2="urn:frontpage:internal">
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-id-card"></i>
+            </div>
+            <h3>Immigration & Travel</h3>
+            <p>Birth Certificate, Identification Card, Passport, Visa and Citizenship Applications</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-credit-card-alt"></i>
+            </div>
+            <h3>Business & Economy</h3>
+            <p>Business Registration, Taxation Information, Economic Development Programs</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-gavel"></i>
+            </div>
+            <h3>Law Enforcement</h3>
+            <p>Constitutional Documents, Crime Reporting, Neighbourhood Watch Programs</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-heartbeat"></i>
+            </div>
+            <h3>Health & Wellness</h3>
+            <p>Healthcare Services, Vaccination Programs, Mental Health Support</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+            <h3>Education & Learning</h3>
+            <p>School Registration, Education Programs, Adult Education Services</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-cog"></i>
+            </div>
+            <h3>Infrastructure & Utilities</h3>
+            <p>Public Transportation Schedules, Water Services, Electricity and Energy Information</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-tree"></i>
+            </div>
+            <h3>Tourism & Exploration</h3>
+            <p>Historical Sites and Landmarks, Guides and Maps, Land Management Information</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-bolt"></i>
+            </div>
+            <h3>Weather & Public Safety</h3>
+            <p>Weather Forecasts, Weather Conditions, Watches and Warnings, Evacuation Plans</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+          <div class="tile flex-item flex-4">
+            <a href=""></a>
+            <div class="icon">
+              <i class="fa fa-phone"></i>
+            </div>
+            <h3>Telecommunications</h3>
+            <p>Telephone Directory, Radio and Television Stations, Broadband Internet</p>
+            <a class="link" href="">
+              <div>
+                <img src="images/svg/arrow.svg">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript">
+    const serviceContainers = document.querySelectorAll('#service-categories .tiles .tile h3');
+    serviceContainers.forEach(container => {
+        const serviceName = container.textContent.trim().replace(/\s+/g, '%20');
+        const containerParent = container.parentElement;
+        containerParent.querySelector('a').href = `services/${serviceName}`;
+        containerParent.querySelector('.link').href = `services/${serviceName}`;
+    });
+    </script>
+  </body>
+</html>
